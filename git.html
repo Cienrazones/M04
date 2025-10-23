@@ -1,11 +1,83 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Git</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Git</title>
 </head>
+
+<header class="site-header">
+  <div class="logo-bloque">
+    <img src="recursos/logo.png" alt="Logo de la manada" class="logo-horizontal">
+    <div class="logo-texto">Mascotas y Código</div>
+  </div>
+  <nav class="main-nav">
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="galeria.html">Galería</a></li>
+      <li><a href="git.html">Git</a></li>
+    </ul>
+  </nav>
+</header>
+
 <body>
-    
+  <section class="recursos">
+    <h2>Git</h2>
+    <div class="div-git">
+      <h3>Basico</h3>
+      <ol>
+        <li><code>git status</code> — Verifica qué archivos han cambiado desde el último commit</li>
+        <li><code>git add .</code> — Añade todos los cambios al seguimiento (o selecciona archivos específicos)</li>
+        <li><code>git commit -m "el cambio"</code> — Mejor en ingles
+        </li>
+        <li><code>git push</code> — Sube los cambios al repositorio remoto en GitHub</li>
+      </ol>
+    </div>
+
+    <div class="div-git">
+      <h3>¿Cómo conectar mi proyecto local a un repositorio vacío en GitHub?</h3>
+      <ol>
+        <li><code>git init</code> — Inicializa Git en tu carpeta local</li>
+        <li><code>git add .</code> — Añade todos los archivos al seguimiento</li>
+        <li><code>git commit -m "Initial commit"</code> — Crea el primer commit</li>
+        <li><code>git remote add origin https://github.com/tu-usuario/nombre-del-repo.git</code> — Enlaza con el
+          repositorio remoto</li>
+        <li><code>git push -u origin main</code> — Sube el proyecto a GitHub</li>
+      </ol>
+    </div>
+
+    <div class="div-git">
+      <h3>Goku</h3>
+      <p></p>
+    </div>
+
+    <div class="div-git">
+      <h3>Sun</h3>
+      <p></p>
+    </div>
+  </section>
+
+  <section class="recursos">
+    <h2>Otros<h2>
+        <div class="div-otros">
+          <h3>Comprensor de imagenes</h3>
+          <p><a href="https://imagecompressor.com">Comprensor de imagenes</a></p>
+        </div>
+        <div class="div-otros">
+          <h3>LiveServer</h3>
+          <p>Alt + L luego Alt + O</p>
+        </div>
+        <div class="div-otros">
+          <h3>....</h3>
+          <p></p>
+        </div>
+  </section>
+
+  <footer class="footer">
+    <a href="https://imagecompressor.com">Comprensor de imagenes</a>
+
+  </footer>
 </body>
+
 </html>
