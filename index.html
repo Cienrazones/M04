@@ -10,12 +10,14 @@
 
 <body>
 
-
+  <!-- header -->
   <header class="site-header">
-    <div class="logo-bloque">
-      <img src="recursos/logo.png" alt="Logo de la manada" class="logo-horizontal">
-      <div class="logo-texto">Mascotas y Código</div>
+    <div class="logo-container">
+      <img src="assets/logo.png" alt="Logo de la manada" class="logo-horizontal">
     </div>
+
+    <div class="logo-texto">Mascotas y Código</div>
+
     <nav class="main-nav">
       <ul>
         <li><a href="index.html">Inicio</a></li>
@@ -25,86 +27,80 @@
     </nav>
   </header>
 
+
+  <section class="intro-section">
+    <h1>Bienvenid@ a la Manada de Julia</h1>
+    <p>Esta web es un homenaje a mis dos perritas —Tara y Chispi— y a mis dos gatos —Goku y Sun—. Aquí comparto sus
+      historias, fichas, fotos y momentos estelares en vídeo.</p>
+  </section>
+
+  <section class="seccion-video">
+    <h2>Momento destacado</h2>
+    <figure class="video-container">
+      <video controls poster="ruta/a/miniatura.jpg">
+        <source src="assets/Hay dos gatos.mp4" type="video/mp4">
+      </video>
+      <figcaption>Este Pato olvidó que hay 2 gatos</figcaption>
+    </figure>
+  </section>
+
+  <!-- main -->
   <main>
-
-    <section class="intro-section">
-      <h1>Bienvenid@ a la Manada de Julia</h1>
-      <p>Esta web es un homenaje a mis dos perritas —Tara y Chispi— y a mis dos gatos —Goku y Sun—. Aquí comparto sus
-        historias, fichas, fotos y momentos estelares en vídeo.</p>
-    </section>
-
-    <section class="seccion-video">
-      <h2>Momento destacado</h2>
-      <figure class="video-container">
-        <video controls poster="ruta/a/miniatura.jpg">
-          <source src="recursos/Hay dos gatos.mp4" type="video/mp4">
-          Tu navegador no soporta el tag de video.
-        </video>
-        <figcaption>Este Pato olvidó que hay 2 gatos</figcaption>
-      </figure>
-    </section>
-
     <section class="seccion-premios">
       <h2>Mascota del mes</h2>
+
       <div class="tarjeta-premio">
         <h3>Tara</h3>
-        <p>.</p>
-      </div>
-      <div class="tarjeta-premio">
-        <h3>Goku</h3>
-        <p></p>
-      </div>
-      <div class="tarjeta-premio">
-        <h3>Sun</h3>
-        <p></p>
+        <img src="assets/Tara.jpg" alt="Foto de Tara" class="foto-premio">
       </div>
     </section>
-
-    <section class="fichas-section">
-      <h2>Fichas </h2>
-      <div class="fichas-div">
-        <p>Datos técnicos y curiosidades de Goku y Sun.</p>
-        <div class="download-buttons">
-          <button class="download-1">Ficha de Goku</button>
-          <button class="download-2">Ficha de Sun</button>
-          <button class="download-3">...</button>
-        </div>
-      </div>
-    </section>
-
-    <section class="ficha-tecnica-mascotas">
-      <h2>Datos técnicos de la manada</h2>
-      <div class="mascota-ficha perro">
-        <h3>Tara</h3>
-        <ul>
-          <li><strong>Rol:</strong> </li>
-          <li><strong>Habilidad:</strong> </li>
-        </ul>
-      </div>
-      <div class="mascota-ficha perro">
-        <h3>Chispi</h3>
-        <ul>
-          <li><strong>Rol:</strong> </li>
-          <li><strong>Habilidad:</strong> </li>
-        </ul>
-      </div>
-      <div class="mascota-ficha gato">
-        <h3>Goku</h3>
-        <ul>
-          <li><strong>Rol:</strong> </li>
-          <li><strong>Habilidad:</strong> </li>
-        </ul>
-      </div>
-      <div class="mascota-ficha gato">
-        <h3>Sun</h3>
-        <ul>
-          <li><strong>Rol:</strong> </li>
-          <li><strong>Habilidad:</strong> </li>
-        </ul>
-      </div>
-    </section>
-
   </main>
+
+  <!-- datos -->
+  <section class="ficha-tecnica-mascotas">
+    <h2>Datos técnicos de la manada</h2>
+
+    <article class="mascota-ficha perro">
+      <h3>Tara</h3>
+      <img src="assets/Tape.jpg" alt="Foto de Tara" class="foto-ficha">
+      <ul>
+        <li><strong>Rol:</strong> Guardiana de mantas</li>
+        <li><strong>Habilidad:</strong> Detecta el confort óptimo en 3 segundos</li>
+      </ul>
+    </article>
+
+    <article class="mascota-ficha perro">
+      <h3>Chispi</h3>
+      <img src="assets/Chispi.jpg" alt="Foto de Chispi" class="foto-ficha">
+      <ul>
+        <li><strong>Rol:</strong> Defensora del hogar</li>
+        <li><strong>Habilidad:</strong> Alerta sonora contra electrodomésticos sospechosos</li>
+      </ul>
+    </article>
+
+    <article class="mascota-ficha gato">
+      <h3>Goku</h3>
+      <img src="assets/Gokuuu.jpg" alt="Foto de Goku" class="foto-ficha">
+      <ul>
+        <li><strong>Rol:</strong> Inspector de cajas</li>
+        <li><strong>Habilidad:</strong> Accede a espacios imposibles sin despeinarse</li>
+      </ul>
+    </article>
+
+    <article class="mascota-ficha gato">
+      <h3>Sun</h3>
+      <img src="assets/Sun.jpeg" alt="Foto de Sun" class="foto-ficha">
+      <ul>
+        <li><strong>Rol:</strong> Sabio oportunista</li>
+        <li><strong>Habilidad:</strong> Roba comida sin alterar el equilibrio universal</li>
+      </ul>
+    </article>
+
+    <div class="boton-galeria">
+      <a href="galeria.html" class="btn-galeria">Ver galería completa</a>
+    </div>
+  </section>
+
 
   <footer class="footer">
     <a href="https://imagecompressor.com">Comprensor de imagenes</a>
