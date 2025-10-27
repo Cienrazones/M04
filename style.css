@@ -25,10 +25,10 @@
 }
 
 body {
-  font-family: var(--font-base);
-  font-size: var(--font-size-base);
-  background-color: var(--color-primary-light);
-  color: var(--color-text-dark);
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 1.1rem;
+  background-color: #ffccbc;
+  color: #212121;
   padding: 1rem;
 }
 
@@ -39,7 +39,7 @@ body {
   align-items: center;
   gap: 1rem;
   padding: 1rem;
-  background-color: var(--color-primary-light);
+  background-color: #ffccbc;
   text-align: center;
 }
 
@@ -54,10 +54,10 @@ body {
 }
 
 .logo-texto {
-  font-size: var(--font-size-nav);
+  font-size: 1.375rem;
   font-weight: bold;
-  color: var(--color-primary-dark);
-  font-family: var(--font-base);
+  color: #e64a19;
+  font-family: 'Segoe UI', sans-serif;
   text-align: center;
 }
 
@@ -72,16 +72,14 @@ body {
 
 .main-nav a {
   text-decoration: none;
-  color: var(--color-primary-dark);
+  color: #e64a19;
   font-weight: bold;
-  font-family: var(--font-base);
-  font-size: var(--font-size-base);
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 1.1rem;
 }
 
-
-/* intro */
 .intro-section {
-  background: linear-gradient(to right, var(--color-primary-light), var(--color-accent));
+  background: linear-gradient(to right, #ffccbc, #448aff);
   padding: 2rem 1rem;
   border-radius: 6%;
   text-align: center;
@@ -89,22 +87,21 @@ body {
 }
 
 .intro-section h1 {
-  font-size: var(--font-size-nav);
+  font-size: 1.375rem;
   font-weight: bold;
-  color: var(--color-primary-dark);
-  font-family: var(--font-base);
+  color: #e64a19;
+  font-family: 'Segoe UI', sans-serif;
   margin-bottom: 1rem;
 }
 
 .intro-section p {
-  font-size: var(--font-size-base);
-  font-family: var(--font-base);
-  color: var(--color-text-dark);
+  font-size: 1.1rem;
+  font-family: 'Segoe UI', sans-serif;
+  color: #212121;
   line-height: 1.6;
   max-width: 40rem;
   margin: 0 auto;
 }
-
 
 /* video */
 .seccion-video {
@@ -130,13 +127,12 @@ body {
 }
 
 .video-container figcaption {
-  font-size: var(--font-size-small);
-  color: var(--color-text-secondary);
+  font-size: 1rem;
+  color: #757575;
   margin-top: 0.5rem;
 }
 
-
-/* trofeos */
+/* premios */
 .seccion-premios {
   margin-top: 2rem;
   text-align: center;
@@ -144,27 +140,27 @@ body {
 }
 
 .seccion-premios h2 {
-  font-size: var(--font-size-large);
-  color: var(--color-primary-dark);
-  font-family: var(--font-base);
+  font-size: 1.25rem;
+  color: #e64a19;
+  font-family: 'Segoe UI', sans-serif;
   margin-bottom: 1.5rem;
 }
 
 .tarjeta-premio {
-  background-color: var(--color-primary-light);
+  background-color: #ffccbc;
   padding: 1.5rem;
   border-radius: 6%;
-  border: 1px solid var(--color-divider);
+  border: 1px solid #bdbdbd;
   max-width: 22rem;
   margin: 0 auto;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 .tarjeta-premio h3 {
-  font-size: var(--font-size-nav);
+  font-size: 1.375rem;
   margin-bottom: 1rem;
-  color: var(--color-primary-dark);
-  font-family: var(--font-base);
+  color: #e64a19;
+  font-family: 'Segoe UI', sans-serif;
 }
 
 .foto-premio {
@@ -176,7 +172,7 @@ body {
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
 }
 
-/* datos */
+/* fichas técnicas */
 .ficha-tecnica-mascotas {
   margin-top: 2rem;
   text-align: center;
@@ -184,30 +180,30 @@ body {
 }
 
 .ficha-tecnica-mascotas h2 {
-  font-size: var(--font-size-large);
-  color: var(--color-primary-dark);
-  font-family: var(--font-base);
+  font-size: 1.25rem;
+  color: #e64a19;
+  font-family: 'Segoe UI', sans-serif;
   margin-bottom: 1.5rem;
 }
 
 .mascota-ficha {
   background-color: #fff;
-  border: 1px solid var(--color-divider);
+  border: 1px solid #bdbdbd;
   padding: 1rem;
   border-radius: 6%;
   margin-bottom: 1.5rem;
 }
 
 .mascota-ficha.gato {
-  font-family: var(--font-gato);
-  background-color: var(--color-accent);
-  color: var(--color-text-light);
+  font-family: 'Courier New', monospace;
+  background-color: #448aff;
+  color: #ffffff;
 }
 
 .mascota-ficha.perro {
-  font-family: var(--font-perro);
-  background-color: var(--color-primary);
-  color: var(--color-text-light);
+  font-family: 'Comic Neue', cursive;
+  background-color: #ff5722;
+  color: #ffffff;
 }
 
 .foto-ficha {
@@ -224,7 +220,7 @@ body {
   list-style: none;
   padding: 0;
   margin-top: 0.5rem;
-  font-size: var(--font-size-base);
+  font-size: 1.1rem;
   line-height: 1.5;
 }
 
@@ -235,37 +231,124 @@ body {
 .btn-galeria {
   display: inline-block;
   padding: 0.75rem 1.5rem;
-  background-color: var(--color-primary-dark);
-  color: var(--color-text-light);
+  background-color: #e64a19;
+  color: #ffffff;
   text-decoration: none;
   font-weight: bold;
-  font-size: var(--font-size-base);
+  font-size: 1.1rem;
   border-radius: 4%;
   transition: background-color 0.3s ease;
 }
 
 .btn-galeria:hover,
 .btn-galeria:focus {
-  background-color: var(--color-accent);
+  background-color: #448aff;
 }
 
+/* git */
+.contenido-git {
+  margin-top: 2rem;
+  padding: 0 1rem;
+}
+
+.recursos {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.div-git,
+.div-otros {
+  background-color: #fff;
+  border: 1px solid #bdbdbd;
+  padding: 1rem;
+  border-radius: 6%;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.titulo-seccion {
+  font-size: 1.25rem;
+  color: #e64a19;
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.subtitulo-git {
+  font-size: 1.375rem;
+  color: #ff5722;
+  font-family: 'Segoe UI', sans-serif;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.lista-git {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  padding-left: 1.25rem;
+  color: #212121;
+}
+
+.lista-git code {
+  background-color: #ffccbc;
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+  font-family: monospace;
+}
+
+/* galería */
+.galeria {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  justify-items: center;
+  padding: 0 1rem;
+}
+
+.foto-galeria {
+  width: 100%;
+  max-width: 16rem;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: 6%;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
 
 /* footer */
 .footer {
   margin-top: 2rem;
-  border-top: 1% solid var(--color-divider);
-  padding-top: 1rem;
+  border-top: 1px solid #bdbdbd;
+  padding: 2rem 1rem 1rem;
   text-align: center;
-  font-size: var(--font-size-small);
-  color: var(--color-text-secondary);
+  font-size: 1rem;
+  color: #757575;
+  background-color: #fff;
+}
+
+.footer p {
+  margin-bottom: 0.5rem;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.footer a {
+  color: #757575;
+  text-decoration: underline;
+  font-weight: normal;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.footer a:hover {
+  color: #e64a19;
 }
 
 
-/* media queries */
-
+/* medias */
 @media (min-width: 768px) {
 
-  /* Header */
+  /* header */
   .site-header {
     flex-direction: row;
     justify-content: space-between;
@@ -285,7 +368,7 @@ body {
   .logo-texto {
     flex: 1;
     text-align: center;
-    font-size: var(--font-size-nav);
+    font-size: 1.375rem;
   }
 
   .main-nav {
@@ -298,8 +381,6 @@ body {
     justify-content: flex-end;
     gap: 1.5rem;
   }
-
-  /* intro */
 
   .intro-section {
     padding: 3rem 2rem;
@@ -323,7 +404,7 @@ body {
     border-radius: 6%;
   }
 
-  /* main */
+  /* premios */
   .seccion-premios {
     display: flex;
     flex-direction: column;
@@ -352,13 +433,9 @@ body {
 
   .foto-premio {
     max-width: 18rem;
-    aspect-ratio: 4 / 3;
-    object-fit: cover;
-    border-radius: 6%;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
   }
 
-  /* datos */
+  /* fichas */
   .ficha-tecnica-mascotas {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
@@ -396,5 +473,54 @@ body {
   .btn-galeria {
     font-size: 1.25rem;
     padding: 1rem 2rem;
+  }
+
+  /* git */
+  .recursos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+    gap: 2rem;
+    justify-items: center;
+  }
+
+  .div-git,
+  .div-otros {
+    max-width: 24rem;
+    padding: 1.5rem;
+  }
+
+  .titulo-seccion {
+    grid-column: 1 / -1;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .subtitulo-git {
+    font-size: 1.5rem;
+  }
+
+  .lista-git {
+    font-size: 1.25rem;
+  }
+
+  /* galería */
+  .galeria {
+    grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+    gap: 2rem;
+    padding: 0 2rem;
+  }
+
+  .foto-galeria {
+    max-width: 100%;
+  }
+
+  /* footer */
+  .footer {
+    font-size: 1rem;
+    padding: 2rem 1rem 1rem;
+  }
+
+  .footer a {
+    font-size: 1rem;
   }
 }
