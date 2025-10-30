@@ -438,10 +438,12 @@ body {
   /* fichas */
   .ficha-tecnica-mascotas {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+    grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
     justify-items: center;
     padding: 0 2rem;
+    max-width: 1200px;
+    margin: 2rem auto;
   }
 
   .ficha-tecnica-mascotas h2 {
@@ -464,6 +466,7 @@ body {
     font-size: 1.25rem;
   }
 
+  /* boton */
   .boton-galeria {
     grid-column: 1 / -1;
     text-align: center;
