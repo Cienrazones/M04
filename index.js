@@ -1,8 +1,10 @@
 document.addEventListener("DOMContentLoaded", () => {
   const form = document.getElementById("form-consultas");
   const confirmacion = document.getElementById("confirmacion");
-  form.addEventListener("submit", function (event) {
+
+  form.addEventListener("submit", (event) => {
     event.preventDefault();
+    confirmacion.style.display = "block";
   });
 });
 
