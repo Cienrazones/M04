@@ -526,4 +526,41 @@ body {
   .footer a {
     font-size: 1rem;
   }
+
+  .seccion-contacto {
+    margin-top: 2rem;
+    padding: 1.5rem;
+    background-color: var(--color-primary-light);
+    border-radius: 6%;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .form-contacto {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .form-contacto label {
+    font-weight: bold;
+    color: var(--color-primary-dark);
+    font-family: var(--font-base);
+  }
+
+  .form-contacto input,
+  .form-contacto textarea,
+  .form-contacto select {
+    width: 100%;
+    padding: 0.6rem;
+    border: 1px solid var(--color-divider);
+    border-radius: 6px;
+    font-family: var(--font-base);
+    font-size: var(--font-size-base);
+  }
+
+  .form-contacto textarea {
+    min-height: 8rem;
+    resize: vertical;
+  }
+
 }
