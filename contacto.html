@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Git</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- header -->
+  <header class="site-header">
+    <div class="logo-container">
+      <img src="assets/logo-min.png" alt="Logo de la manada" class="logo-horizontal">
+    </div>
+
+    <div class="logo-texto">Mascotas y Código</div>
+
+    <nav class="main-nav">
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="galeria.html">Galería</a></li>
+        <li><a href="git.html">Git</a></li>
+        <li><a href="contacto.html">Formulario</a></li>
+
+      </ul>
+    </nav>
+  </header>
+
+  <!-- main -->
+  <main>
+    <section class="seccion-contacto">
+      <h2 class="titulo-seccion">Formulario de contacto</h2>
+
+      <form class="form-contacto" action="mailto:asir.juliasalguero@gmail.com" method="post" enctype="text/plain">
+        <div class="campo">
+          <label for="nombre">Nombre</label>
+          <input type="text" id="nombre" name="nombre" required placeholder="Tu nombre">
+        </div>
+
+        <div class="campo">
+          <label for="email">Correo electrónico</label>
+          <input type="email" id="email" name="email" required placeholder="tucorreo@ejemplo.com">
+        </div>
+
+        <div class="campo">
+          <label for="mensaje">Mensaje</label>
+          <textarea id="mensaje" name="mensaje" required placeholder="Escribe tu mensaje"></textarea>
+        </div>
+
+        <button type="submit" class="btn-galeria">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+
+  <!-- footer -->
+  <footer class="footer">
+    <p>© 2025 Julia — Mascotas y Código</p>
+    <p>Contacto: <a href="mailto:cienrazones@hotmail.com">cienrazones@hotmail.com</a></p>
+    <p>Hecho con HTML, CSS y cariño 🐾</p>
+  </footer>
+
+</body>
+
+</html>
