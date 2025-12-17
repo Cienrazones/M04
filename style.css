@@ -481,10 +481,15 @@ body {
   /* git */
   .recursos {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
     gap: 2rem;
     justify-items: center;
   }
+
+  .div-git.largo {
+    grid-column: span 2;
+  }
+
 
   .div-git,
   .div-otros {
@@ -586,7 +591,6 @@ body {
 
   .mensaje-confirmacion {
     display: none;
-    /* oculto por defecto */
     color: var(--color-primary-dark);
     font-weight: bold;
     margin-top: 1rem;
