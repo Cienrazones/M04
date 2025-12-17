@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Git</title>
   <link rel="stylesheet" href="style.css">
+  <script src="index.js"></script>
   <link rel="icon" type="image/png" href="assets/logo-min.png">
 
 
@@ -38,32 +39,32 @@
       <h2 class="titulo-seccion">Formulario de consultas</h2>
 
       <form class="form-contacto" action="#" method="post">
-        <!-- Nombre -->
         <label for="nombre">Nombre completo</label>
         <input type="text" id="nombre" name="nombre" required placeholder="Tu nombre">
 
-        <!-- Email -->
         <label for="email">Correo electrónico</label>
         <input type="email" id="email" name="email" required placeholder="tucorreo@ejemplo.com">
 
-        <!-- Desplegable -->
         <label for="tema">Tema de la consulta</label>
         <select id="tema" name="tema" required>
-          <option value="">-- Selecciona un tema --</option>
+          <option value="">-- Consulta, ladrido o línea de código --</option>
           <option value="mascotas">Mascotas</option>
           <option value="codigo">Código</option>
           <option value="otros">Otros</option>
         </select>
 
-        <!-- Mensaje -->
         <label for="mensaje">Mensaje</label>
-        <textarea id="mensaje" name="mensaje" required placeholder="Escribe tu consulta aquí"></textarea>
+        <textarea id="mensaje" name="mensaje" required placeholder="Suelta tu mejor GUAU o MIAU!"></textarea>
 
-        <!-- Botón -->
-        <button type="submit" class="btn-galeria">Enviar</button>
+        <button type="submit" class="btn-form">Enviar</button>
+        <p id="confirmacion" style="display:none; color: var(--color-primary-dark); font-weight:bold; margin-top:1rem;">
+          ¡Miau! Mensaje recibido.
+        </p>
+
       </form>
     </section>
   </main>
+
 
 
 
